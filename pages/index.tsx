@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from "../components/Header";
+import Recruit from '../components/Recruit';
 
 const Home: NextPage = () => {
   return (
@@ -128,16 +129,7 @@ const Home: NextPage = () => {
       </section>
 
       <section id='Recruit' className='mb-32 mt-20'>
-        <div className='flex w-11/12 m-auto border'>
-          <div className='w-4/6' style={{ position: 'relative' }} >
-            <Image src={"/office.jpg"} layout={'fill'} className={"object-cover"}></Image>
-          </div>
-          <div className='w-2/6 py-16 px-6 bg-[#dedfd9]'>
-            <h1 className='text-4xl font-bold text-center text-[#a19e8b]'>Recruit</h1>
-            <p className='pt-8 text-center'>C Landmarkのメンバー<br />として一緒に働きませんか？</p>
-          </div>
-
-        </div>
+        <Recruit />
       </section>
 
     </div>
