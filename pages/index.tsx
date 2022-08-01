@@ -43,7 +43,7 @@ const Home: NextPage = () => {
 
       <section id="About" className="mt-20">
         <div className="text-center ">
-          <h1 className="text-3xl pb-8 font-bold text-[#a19e8b]">About</h1>
+          <h1 className="text-4xl pb-8 font-bold text-[#a19e8b]">About</h1>
           <p className="pb-8">
             自分自身、
             <br />
@@ -74,12 +74,12 @@ const Home: NextPage = () => {
         </div>
       </section>
 
-      <section id="Service" className="hidden md:block">
+      <section id="DesktopService" className="hidden md:block">
         <div className="flex relative ">
           <div className="w-6/12 bg-[#dedfd9] px-10  py-32 m-auto h-[508px]">
             <div className="w-8/12 m-auto">
               <div className="text-center">
-                <h1 className="text-left font-bold text-3xl pb-8 text-[#a19e8b]">
+                <h1 className="text-left font-bold text-4xl pb-8 text-[#a19e8b]">
                   Service
                 </h1>
                 <p className="text-left">
@@ -110,7 +110,7 @@ const Home: NextPage = () => {
       <section id="SmartService" className="md:hidden">
         <div className="">
           <div className="text-center">
-            <h1 className="font-bold text-3xl pb-10 text-[#a19e8b]">Service</h1>
+            <h1 className="font-bold text-4xl pb-10 text-[#a19e8b]">Service</h1>
 
             <div className="border border-black ml-4 mr-24 py-6">
               <p className="text-left pl-6">
@@ -130,18 +130,18 @@ const Home: NextPage = () => {
           </div>
           <div className="text-center mt-20">
             <Link href="">
-              <a className="border border-black px-6 py-3 ">Read More</a>
+              <a className="border border-black px-10 py-3 ">Read More</a>
             </Link>
           </div>
         </div>
       </section>
 
-      <section id="Work" className="mt-20 mb-20">
+      <section id="Work" className="mt-24 mb-20">
         <div className="md:w-10/12 md:m-auto">
-          <h1 className="hidden md:block text-3xl font-bold pb-2 text-[#a19e8b]">
+          <h1 className="hidden md:block text-4xl font-bold pb-2 text-[#a19e8b]">
             Work
           </h1>
-          <h1 className="md:hidden text-center text-3xl font-bold text-[#a19e8b]">
+          <h1 className="md:hidden text-center text-4xl font-bold text-[#a19e8b]">
             Work
           </h1>
         </div>
@@ -200,17 +200,22 @@ const Home: NextPage = () => {
                   テキストテキストテキストテキストテキストテキストテキストテキストテキスト
                 </p>
               </div>
+              <div className="mt-16 mb-32">
+                <Link href="">
+                  <a className="border border-black px-10 py-3 ">Read More</a>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="Event">
+      <section id="DesktopEvent" className="hidden md:block">
         <div className="flex w-11/12 m-auto">
           <div className="w-6/12 m-auto  border-t border-b border-[#a19e8b]">
             <div className=" w-9/12 m-auto">
               <div className="mt-32">
-                <h1 className="font-bold text-3xl pb-8 text-[#a19e8b]">
+                <h1 className="font-bold text-4xl pb-8 text-[#a19e8b]">
                   Event
                 </h1>
                 <p>現在募集中のセミナーやイベントの最新情報はこちら</p>
@@ -236,6 +241,28 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
+      </section>
+
+      <section id="SmartEvent" className="md:hidden">
+
+
+            <div className="">
+              <div className="mt-32">
+                <h1 className="text-center font-bold text-4xl pb-8 text-[#a19e8b]">
+                  Event
+                </h1>
+                <p className="w-[260px] text-center ml-auto ">
+                  現在募集中のセミナーやイベントの最新情報はこちらから
+                </p>
+              </div>
+              <div className="text-center mt-8 mb-32">
+                <Link href="">
+                  <a className="border border-black px-10 py-3 ">Read More</a>
+                </Link>
+              </div>
+            </div>
+
+
       </section>
 
       <section id="Recruit" className="mb-32 mt-20">
