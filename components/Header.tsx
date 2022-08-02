@@ -37,7 +37,8 @@ const solutions = [
     icon: MailIcon,
   },
 
-  { name: 'Recruit', description: "Your customers' data will be safe and secure.", href: '/service', icon: DesktopComputerIcon }
+  { name: 'Recruit', description: "Your customers' data will be safe and secure.", href: '/service', icon: DesktopComputerIcon },
+  { name: 'Contact', description: "Your customers' data will be safe and secure.", href: '/service', icon: DesktopComputerIcon }
   
 ]
 
@@ -86,6 +87,9 @@ const Header: React.FC = () => {
             </a></Link>
             <Link href={"/mail"}><a className="text-base font-medium hover:text-gray-900">
               Recruit
+            </a></Link>
+            <Link href={"/mail"}><a className="text-base font-medium hover:text-gray-900">
+              Contact
             </a></Link>
 
           </Popover.Group>
