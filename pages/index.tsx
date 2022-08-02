@@ -244,8 +244,6 @@ const Home: NextPage = () => {
       </section>
 
       <section id="SmartEvent" className="md:hidden">
-
-
             <div className="">
               <div className="mt-32">
                 <h1 className="text-center font-bold text-4xl pb-8 text-[#a19e8b]">
@@ -261,8 +259,6 @@ const Home: NextPage = () => {
                 </Link>
               </div>
             </div>
-
-
       </section>
 
       <section id="Recruit" className="mb-32 mt-20">

@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 
 
-const Recruit: React.FC = () => {
+const Recruit = () => {
   return (
     <div>
       <div id="DesktopRecruit" className="hidden md:block">
